@@ -1,6 +1,6 @@
 {
   "name": "metadomain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
   "license": "MIT",
   "description": "Metarhia core model: database schemas",
@@ -15,7 +15,7 @@
   ],
   "main": "metadomain.js",
   "files": [
-    "schema/"
+    "schemas/"
   ],
   "engines": {
     "node": "^12.9 || 14 || 15"
