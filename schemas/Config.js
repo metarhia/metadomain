@@ -1,6 +1,6 @@
 ({
-  Registry: {},
+  Entity: {},
 
   name: { type: 'string', unique: true },
-  parent: '?Unit',
+  data: 'json',
 });
