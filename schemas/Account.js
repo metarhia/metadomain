@@ -4,7 +4,7 @@
   login: { type: 'string', unique: true },
   password: 'string',
   active: { type: 'boolean', default: true },
-  unit: { namy: 'Unit' },
+  unit: { many: 'Unit' },
   roles: { many: 'Role' },
 
   fullName: {
