@@ -1,8 +1,8 @@
 ({
   Registry: {},
 
-  name: 'string',
   category: 'Category',
+  name: 'string',
 
   naturalKey: { unique: ['category', 'name'] },
 });

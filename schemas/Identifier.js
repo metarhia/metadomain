@@ -1,7 +1,7 @@
 ({
   Registry: { scope: 'global' },
 
-  category: 'Identifier',
+  category: '?Identifier',
   storage: { enum: ['master', 'cache', 'backup', 'replica'], index: true },
   status: { enum: ['prealloc', 'init', 'actual', 'historical'], index: true },
   creation: 'datetime',

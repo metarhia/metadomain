@@ -1,20 +1,17 @@
 ({
   Registry: {},
 
-  login: { type: 'string', unique: true },
-  password: 'string',
+  login: { type: 'string', length: { min: 8, max: 64 }, unique: true },
+  password: { 'string', note: 'Password hash' },
   active: { type: 'boolean', default: true },
   unit: { many: 'Unit' },
   roles: { many: 'Role' },
+  email: { type: 'strring', length: { min: 6, max: 255 }, unique: true },
+  phone: { type: 'strring', length: { min: 10, max: 15 }, unique: true },
 
   fullName: {
-    given: { type: 'string', required: false },
-    middle: { type: 'string', required: false },
-    surname: { type: 'string', required: false },
-  },
-
-  birth: {
-    date: { type: 'string', required: false },
-    place: { type: 'string', required: false },
+    given: '?string',
+    middle: '?string',
+    surname: '?string',
   },
 });

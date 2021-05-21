@@ -1,7 +1,9 @@
 ({
   Registry: {},
 
-  name: { type: 'string', unique: true },
-  parent: { type: 'Catalog', required: false },
+  parent: '?Catalog',
+  name: { type: 'string', index: true },
   entities: { many: 'Identifier' },
+
+  naturalKey: { unique: ['parent', 'name'] },
 });
