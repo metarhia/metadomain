@@ -39,7 +39,7 @@
     "test": "npm run lint && metatests test/"
   },
   "dependencies": {
-    "metaschema": "^1.2.2"
+    "metaschema": "^1.3.2"
   },
   "devDependencies": {
     "@types/node": "^15.6.0",
