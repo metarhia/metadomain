@@ -2,6 +2,11 @@
 
 ## [Unreleased][unreleased]
 
+## [1.0.3][] - 2021-06-30
+
+- Role linked to Units
+- Projection examples
+
 ## [1.0.2][] - 2021-05-22
 
 - Improve core schemas
@@ -16,7 +21,8 @@
 
 - Move initial implementation from metasql
 
-[unreleased]: https://github.com/metarhia/metadomain/compare/v1.0.2...HEAD
+[unreleased]: https://github.com/metarhia/metadomain/compare/v1.0.3...HEAD
+[1.0.3]: https://github.com/metarhia/metadomain/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/metarhia/metadomain/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/metarhia/metadomain/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/metarhia/metadomain/compare/v0.0.0...v1.0.0
