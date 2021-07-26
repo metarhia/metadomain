@@ -2,6 +2,8 @@
 
 ## [Unreleased][unreleased]
 
+- Identifier schema is not a Registry, it's a regular entity
+
 ## [1.0.3][] - 2021-06-30
 
 - Role linked to Units
