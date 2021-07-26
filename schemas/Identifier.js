@@ -1,5 +1,5 @@
 ({
-  Registry: { scope: 'global' },
+  Entity: {},
 
   category: '?Identifier',
   storage: { enum: ['master', 'cache', 'backup', 'replica'], index: true },
