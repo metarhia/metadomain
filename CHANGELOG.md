@@ -5,6 +5,7 @@
 - Identifier schema is not a Registry, it's a regular entity
 - Add default: `now` for datetime fields
 - Add Category kinds and default kind
+- Fix enum for Permission
 
 ## [1.0.3][] - 2021-06-30
 
