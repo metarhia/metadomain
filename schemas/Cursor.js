@@ -3,7 +3,7 @@
 
   session: 'Session',
   hashsum: 'string',
-  created: 'datetime',
+  created: { type: 'datetime', default: 'now' },
   query: 'json',
   version: { type: 'number', default: 0 },
 });
