@@ -8,7 +8,7 @@
   mediaType: 'string',
 
   access: {
-    last: 'datetime',
+    last: { type: 'datetime', default: 'now' },
     count: { type: 'number', default: 0 },
   },
 

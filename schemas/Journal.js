@@ -5,7 +5,7 @@
   account: 'Account',
   server: 'Server',
   action: 'string',
-  dateTime: 'datetime',
+  dateTime: { type: 'datetime', default: 'now' },
   ip: 'ip',
   details: 'json',
 });
