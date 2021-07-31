@@ -5,7 +5,8 @@
   identifier: 'Identifier',
   action: {
     type: 'string',
-    lookup: ['read', 'insert', 'update', 'delete', 'audit'],
+    enum: ['read', 'insert', 'update', 'delete', 'audit'],
+    default: 'update',
   },
 
   naturalKey: { unique: ['role', 'identifier'] },
