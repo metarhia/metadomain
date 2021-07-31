@@ -2,11 +2,19 @@
   Entity: {},
 
   category: '?Identifier',
-  storage: { enum: ['master', 'cache', 'backup', 'replica'], index: true },
-  status: { enum: ['prealloc', 'init', 'actual', 'historical'], index: true },
-  creation: 'datetime',
-  change: 'datetime',
+  storage: {
+    enum: ['master', 'cache', 'backup', 'replica'],
+    default: 'master',
+    index: true,
+  },
+  status: {
+    enum: ['prealloc', 'init', 'actual', 'historical'],
+    default: 'actual',
+    index: true,
+  },
+  creation: { type: 'datetime', default: 'now' },
+  change: { type: 'datetime', default: 'now' },
   lock: { type: 'boolean', default: false },
   version: { type: 'number', default: 0 },
-  hashsum: 'string',
+  hashsum: { type: 'string', default: '' },
 });

@@ -3,6 +3,7 @@
 ## [Unreleased][unreleased]
 
 - Identifier schema is not a Registry, it's a regular entity
+- Add default: `now` for datetime fields
 
 ## [1.0.3][] - 2021-06-30
 
