@@ -4,7 +4,7 @@ const path = require('path');
 const { Model } = require('metaschema');
 
 const load = async () => {
-  const modelPath = path.join(process.cwd(), 'schemas');
+  const modelPath = path.join(__dirname, 'schemas');
   return Model.load(modelPath);
 };
 
