@@ -2,6 +2,8 @@
 
 ## [Unreleased][unreleased]
 
+- Use relative path to load schemas from node_modules
+
 ## [1.0.4][] - 2021-08-02
 
 - Identifier schema is not a Registry, it's a regular entity
