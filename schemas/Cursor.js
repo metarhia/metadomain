@@ -1,7 +1,7 @@
 ({
   Details: {},
 
-  session: 'Session',
+  session: { type: 'Session', delete: 'cascade' },
   hashsum: 'string',
   created: { type: 'datetime', default: 'now' },
   query: 'json',
