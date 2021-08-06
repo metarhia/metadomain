@@ -1,8 +1,8 @@
 ({
   Relation: {},
 
-  role: 'Role',
-  identifier: 'Identifier',
+  role: { type: 'Role', delete: 'cascade' },
+  identifier: { type: 'Identifier', delete: 'cascade' },
   action: {
     type: 'string',
     enum: ['read', 'insert', 'update', 'delete', 'audit'],

@@ -2,6 +2,8 @@
 
 ## [Unreleased][unreleased]
 
+- Add `{ delete: 'cascade' }` and to generate ON DELETE CASCADE
+
 ## [1.0.5][] - 2021-08-04
 
 - Use relative path to load schemas from node_modules
