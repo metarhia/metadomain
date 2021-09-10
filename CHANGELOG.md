@@ -2,7 +2,10 @@
 
 ## [Unreleased][unreleased]
 
+## [1.0.6][] - 2021-09-10
+
 - Add `{ delete: 'cascade' }` and to generate ON DELETE CASCADE
+- Update dependencies
 
 ## [1.0.5][] - 2021-08-04
 
