@@ -18,7 +18,7 @@
     "schemas/"
   ],
   "engines": {
-    "node": "^12.9 || 14 || 16 || 17"
+    "node": "14 || 16 || 18"
   },
   "repository": {
     "type": "git",
