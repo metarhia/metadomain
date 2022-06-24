@@ -2,6 +2,11 @@
 
 ## [Unreleased][unreleased]
 
+## [1.0.8][] - 2022-06-24
+
+- Update to metaschema 2.x
+- Update dependencies and package maintenance
+
 ## [1.0.7][] - 2022-03-17
 
 - Update dependencies and package maintenance
@@ -41,7 +46,8 @@
 
 - Move initial implementation from metasql
 
-[unreleased]: https://github.com/metarhia/metadomain/compare/v1.0.7...HEAD
+[unreleased]: https://github.com/metarhia/metadomain/compare/v1.0.8...HEAD
+[1.0.8]: https://github.com/metarhia/metadomain/compare/v1.0.7...v1.0.8
 [1.0.7]: https://github.com/metarhia/metadomain/compare/v1.0.6...v1.0.7
 [1.0.6]: https://github.com/metarhia/metadomain/compare/v1.0.5...v1.0.6
 [1.0.5]: https://github.com/metarhia/metadomain/compare/v1.0.4...v1.0.5
