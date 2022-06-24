@@ -1,11 +1,11 @@
 'use strict';
 
 const path = require('path');
-const { Model } = require('metaschema');
+const { loadModel } = require('metaschema');
 
-const load = async () => {
+const load = () => {
   const modelPath = path.join(__dirname, 'schemas');
-  return Model.load(modelPath);
+  return loadModel(modelPath);
 };
 
 module.exports = { load };
