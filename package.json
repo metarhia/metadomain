@@ -1,6 +1,6 @@
 {
   "name": "metadomain",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
   "license": "MIT",
   "description": "Metarhia core model: database schemas",

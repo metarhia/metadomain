@@ -2,6 +2,12 @@
 
 ## [Unreleased][unreleased]
 
+## [1.0.10][] - 2023-04-01
+
+- Drop node.js 14 support, add node.js 20
+- Convert package_lock.json to lockfileVersion 2
+- Update dependencies
+
 ## [1.0.9][] - 2022-06-24
 
 - Hotfix
@@ -50,7 +56,8 @@
 
 - Move initial implementation from metasql
 
-[unreleased]: https://github.com/metarhia/metadomain/compare/v1.0.9...HEAD
+[unreleased]: https://github.com/metarhia/metadomain/compare/v1.0.10...HEAD
+[1.0.10]: https://github.com/metarhia/metadomain/compare/v1.0.9...v1.0.10
 [1.0.9]: https://github.com/metarhia/metadomain/compare/v1.0.8...v1.0.9
 [1.0.8]: https://github.com/metarhia/metadomain/compare/v1.0.7...v1.0.8
 [1.0.7]: https://github.com/metarhia/metadomain/compare/v1.0.6...v1.0.7
