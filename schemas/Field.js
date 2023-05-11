@@ -1,8 +1,8 @@
 ({
   Registry: {},
 
-  category: { type: 'Category', delete: 'cascade' },
+  entity: { type: 'Entity', delete: 'cascade' },
   name: 'string',
 
-  naturalKey: { unique: ['category', 'name'] },
+  naturalKey: { unique: ['entity', 'name'] },
 });

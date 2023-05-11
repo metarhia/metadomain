@@ -1,7 +1,7 @@
 ({
   Entity: {},
 
-  category: '?Identifier',
+  entity: '?Identifier',
   storage: {
     enum: ['master', 'cache', 'backup', 'replica'],
     default: 'master',
@@ -14,7 +14,7 @@
   },
   creation: { type: 'datetime', default: 'now' },
   change: { type: 'datetime', default: 'now' },
-  lock: { type: 'boolean', default: false },
+  locked: { type: 'boolean', default: false },
   version: { type: 'number', default: 0 },
   hashsum: { type: 'string', default: '' },
 });

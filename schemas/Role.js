@@ -3,5 +3,5 @@
 
   name: { type: 'string', unique: true },
   active: { type: 'boolean', default: true },
-  unit: { type: 'Unit', delete: 'restrict' },
+  Division: { type: 'Division', delete: 'restrict' },
 });
