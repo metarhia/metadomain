@@ -2,5 +2,5 @@
   Registry: {},
 
   name: { type: 'string', unique: true },
-  parent: '?Unit',
+  parent: '?Division',
 });
