@@ -2,6 +2,12 @@
 
 ## [Unreleased][unreleased]
 
+## [2.0.0-alpha.1][] - 2023-05-27
+
+- Rename `Category` to `Entity`
+- Rename `Unit` to `Division`
+- Change `email`, `phone` and `fullName` fields
+
 ## [1.0.10][] - 2023-04-01
 
 - Drop node.js 14 support, add node.js 20
