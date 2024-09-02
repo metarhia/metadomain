@@ -2,6 +2,8 @@
 
 ## [Unreleased][unreleased]
 
+## [2.0.0-alpha.2][] - 2024-09-02
+
 - Add node.j 21 and 22, remove 16 and 19 in CI
 - Update dependencies
 - Upgrade eslint to 9.x, prettier, and configs
@@ -66,7 +68,9 @@
 
 - Move initial implementation from metasql
 
-[unreleased]: https://github.com/metarhia/metadomain/compare/v1.0.10...HEAD
+[unreleased]: https://github.com/metarhia/metadomain/compare/v2.0.0-alpha.2...HEAD
+[2.0.0-alpha.2]: https://github.com/metarhia/metadomain/compare/v2.0.0-alpha.1...v2.0.0-alpha.2
+[2.0.0-alpha.1]: https://github.com/metarhia/metadomain/compare/v1.0.10...v2.0.0-alpha.1
 [1.0.10]: https://github.com/metarhia/metadomain/compare/v1.0.9...v1.0.10
 [1.0.9]: https://github.com/metarhia/metadomain/compare/v1.0.8...v1.0.9
 [1.0.8]: https://github.com/metarhia/metadomain/compare/v1.0.7...v1.0.8
