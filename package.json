@@ -34,9 +34,10 @@
     "url": "https://www.patreon.com/tshemsedinov"
   },
   "scripts": {
-    "lint": "eslint . && prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/.*rc\"",
-    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/.*rc\"",
-    "test": "npm run lint && metatests test/"
+    "test": "npm run lint && metatests test/",
+    "types": "tsc -p tsconfig.json",
+    "lint": "eslint . && prettier --check \"**/*.js\" \"**/*.json\" \"**/*.md\"",
+    "fix": "eslint . --fix && prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\""
   },
   "dependencies": {
     "metaschema": "^2.2.1"
@@ -46,7 +47,6 @@
     "eslint": "^9.9.1",
     "eslint-config-metarhia": "^9.0.5",
     "metatests": "^0.9.0",
-    "prettier": "^3.3.3",
-    "typescript": "^5.5.4"
+    "prettier": "^3.3.3"
   }
 }
