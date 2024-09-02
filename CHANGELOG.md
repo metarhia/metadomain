@@ -3,6 +3,7 @@
 ## [Unreleased][unreleased]
 
 - Add node.j 21 and 22, remove 16 and 19 in CI
+- Update dependencies
 
 ## [2.0.0-alpha.1][] - 2023-05-27
 
