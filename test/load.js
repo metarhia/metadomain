@@ -1,16 +1,12 @@
 'use strict';
 
-const metatests = require('metatests');
+const { test } = require('node:test');
+const assert = require('node:assert/strict');
 const metadomain = require('..');
 
-metatests.test('Load metadomain', async (test) => {
-  try {
-    const model = await metadomain.load();
-    test.assert(model);
-    console.log(model.warnings.join('\n'));
-    test.strictEqual(model.warnings.length, 0);
-  } catch (err) {
-    test.error(err);
-  }
-  test.end();
+test('Load metadomain', async () => {
+  const model = await metadomain.load();
+  assert.ok(model);
+  if (model.warnings.length) console.log(model.warnings.join('\n'));
+  assert.equal(model.warnings.length, 0);
 });
